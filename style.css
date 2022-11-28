@@ -1,0 +1,87 @@
+* {
+    /* All of the text on the web page is centered */
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+}
+
+header {
+    /* There will be no gap between the header and the top of the screen. The text will lie slighly above the bottom of the header. */
+    padding: 20px;
+    padding-bottom: 2px;
+    background: green;
+    color: lightgrey;
+}
+
+main {
+    margin-top: 0px;
+    background-color: lightyellow;
+}
+
+h3 {
+    color: brown;
+}
+
+img {
+    /*Re-Format the size of the image*/
+    border-radius: 50px;
+    width: 20%;
+    height: 20%;
+    /*Center the image*/
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    /*Unordered list will be close to the previous content*/
+    margin-top: 0px;
+    display: inline-block;
+}
+
+ol {
+    margin-top: 0px;
+    display: inline-block;
+}
+
+li {
+    /*Allows text to neighbor the bullet*/
+    text-align: left;
+}
+
+hr {
+    width: 45%;
+}
+
+div {
+    margin: auto;
+    width: 640px;
+    text-align: left;
+    padding: 5px;
+}
+
+p {
+    margin: auto;
+    width: 640px;
+    text-align: left;
+    padding: 5px;
+}
+
+footer {
+    padding: 30px;
+    background-color: green;
+    color: white;
+
+}
+/* Set default color */
+a {
+    color: grey;
+}
+/* Set color while hovering*/
+a:hover {
+    color: pink;
+}
+/* Set color when visted */
+a:active {
+    color: blue;
+}
