@@ -71,7 +71,8 @@ footer {
     padding: 30px;
     background-color: green;
     color: white;
-
+    /* Font-size added */
+    font-size: 15px;
 }
 /* Set default color */
 a {
